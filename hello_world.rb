@@ -18,9 +18,11 @@ message0 = "Hello,"
 puts message0 + " " + $GLOBAL_VAR
 
 # print does not have cr integrated
-print "Say "
+print "I "
+print "can "
+print "say "
 print "hello\s"
-print "world"
+print "in many different ways"
 print "!\n"
 # Commas or cat symbols are supported
 print message0 + " ", $GLOBAL_VAR + "!" + "\n"
@@ -53,3 +55,8 @@ def func1( a )
 end
 
 func1( a )
+
+# Blocks with parameters [ The times function passes an integer loop count
+a.times { |x| puts "Huray #{x}!" }
+
+
