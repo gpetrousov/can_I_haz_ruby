@@ -1,5 +1,5 @@
 
-# instance variables start with @
+# In Ruby, an instance variable is simply a name preceded by an ``at'' sign (``@'').
 
 
 # define a class
