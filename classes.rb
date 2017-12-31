@@ -19,6 +19,12 @@ class Car
     @color = color
     @model = model
   end
+  def all_car_info
+    # print all car information
+    puts "==================="
+    print @category, " ", @manufacturer, " ", @model, " ", @color, "\n"
+    puts "==================="
+  end
 end
 
 if __FILE__ == $0
@@ -30,4 +36,5 @@ if __FILE__ == $0
   puts "Changing the category of the car to 4X4"
   my_car.category = "4X4"
   puts "The category of the car changed to  #{my_car.category}"
+  my_car.all_car_info
 end
