@@ -48,13 +48,13 @@ while gets.to_i != a
     puts "No, that's not my number, try again"
 end
 
-# Function
-def func1( a )
+# Function definition starts with def
+def func1(a)
   puts "You got it, the number is #{a}"
   return
 end
 
-func1( a )
+func1(a)
 
 # Blocks with parameters [ The times function passes an integer loop count
 a.times { |x| puts "Huray #{x}!" }
