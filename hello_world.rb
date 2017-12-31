@@ -59,4 +59,3 @@ func1( a )
 # Blocks with parameters [ The times function passes an integer loop count
 a.times { |x| puts "Huray #{x}!" }
 
-
